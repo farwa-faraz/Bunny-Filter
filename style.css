@@ -1,0 +1,32 @@
+.title 
+{
+    font-size: 30px;
+    font-family: 'Aboreto', cursive;
+}
+
+.button:hover
+{
+    background-color: rgb(191, 103, 255);
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+.button
+{
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+canvas
+{
+    border: 5px dotted black;
+    animation-name: border_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border_animation 
+{
+    from{box-shadow: 1px 1px 100px rgb(120, 246, 255)}
+    to{box-shadow: 1px 1px 100px rgb(13, 0, 255)}
+    from{border-radius: 0px}
+    to{border-radius: 50px}
+}
