@@ -25,8 +25,8 @@ canvas
 
 @keyframes border_animation 
 {
-    from{box-shadow: 1px 1px 100px rgb(120, 246, 255)}
-    to{box-shadow: 1px 1px 100px rgb(13, 0, 255)}
+    from{box-shadow: 1px 1px 100px rgb(0, 170, 255)}
+    to{box-shadow: 1px 1px 100px rgb(0, 68, 255)}
     from{border-radius: 0px}
     to{border-radius: 50px}
 }
